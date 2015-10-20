@@ -1,0 +1,10 @@
+{
+    "TacheRecupCallable_maxExecuteTime": 80,
+    "TacheAlerteMail_maxExecuteTime": 30,
+    "TacheEnvoyerMail_maxExecuteTime": 20,
+    "TacheStillAlive_maxExecuteTime": 10,
+    "TacheVerifFluxNotificationMail_maxExecuteTime": 10,
+    "TacheLancerConnectionJMS_maxExecuteTime": 10,
+    "TacheSynchroHebdomadaire_maxExecuteTime": 10,
+    "TacheDetectDeadLock_maxExecuteTime": 20
+}

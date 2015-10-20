@@ -1,0 +1,1777 @@
+Message-ID: <460642188.301393586071881.JavaMail.clem@clem-OptiPlex-7010>
+Date: Fri, 28 Feb 2014 12:14:31 +0100
+From: clement.rillon@gmail.com
+To: geomedia-admin@gis-cist.fr
+Subject: =?UTF-8?Q?R=C3=A9capitulatif_des_Incidents?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Java
+
+
+
+
+
+
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8">
+        </head>
+
+    <body>
+<h1>R=C3=A9capitulatif des incidents et =C3=A9v=C3=A8nements</h1>
+<p>Ce mail est un r=C3=A9capitulatif journalier des incidents et =C3=A9v=C3=
+=A8nements survenus sur le serveur. Il est envoy=C3=A9 toutes les 2m. Veille=
+z a r=C3=A9sondre chacun des cas. Lorsque votre travail de maintenance sera =
+termin=C3=A9, vous pouvez clore manuellement les incidents afin d'emp=C3=AAc=
+her que ceux-ci se renotifient</p>
+
+
+
+          <h2>Notification d'=C3=A9v=C3=A8nement</h2>
+          <p> Les =C3=A9v=C3=A8nements n'emp=C3=A8che pas l'aggr=C3=A9gateur=
+ de fonctionner. Ils permettent de notifier aux administrateur des relev=C3=
+=A9es de valeurs anormales ou des ajouts de donn=C3=A9es demandant la un con=
+trole =C3=A0 post=C3=A9riori. Exemple : chutes ou hausse anormales du nombre=
+ d'items captur=C3=A9es pour un flux (Anomalie de Collecte), ajout de nouvea=
+ux flux automatique pour un journal </p>
+        <ul>
+      =20
+                                                                            =
+                                                                            =
+                                                                            =
+                                                                            =
+                                                                            =
+                                                                            =
+                                                                            =
+                                                                            =
+                                                                            =
+                                                                            =
+                                                                            =
+                                                                            =
+                           =20
+                            <li>Aucun</li>
+           =20
+
+         </ul>
+
+
+
+     =20
+        <h2>Incidents</h2>
+        <p>Les incidents sont des erreurs survenues lors de la collecte lors=
+que par exemple un flux n'a pas pu =C3=AAtre collect=C3=A9 (erreur d'url, se=
+rveur injoignable...). Sous ce titre vous trouverez aussi les incidents de s=
+erveurs, exemple perte de connection JMS</p>
+        <ul>
+                                            <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : gulf daily news - International</h3>
+                                                       <p><strong>Flux : </s=
+trong> gulf daily news - International</p>
+                                                <p><strong>Erreur : </strong=
+> java.util.concurrent.ExecutionException: com.sun.syndication.io.ParsingFee=
+dException: Invalid XML: Error on line 100: The string "--" is not permitted=
+ within comments.</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.ExecutionException: com.sun.syndication.io.ParsingFeedException: Invalid =
+XML: Error on line 100: The string "--" is not permitted within comments.</p=
+>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D368&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Le quotidien les mutations - International</h3>
+                                                       <p><strong>Flux : </s=
+trong> Le quotidien les mutations - International</p>
+                                                <p><strong>Erreur : </strong=
+> java.net.UnknownHostException: www.quotidien.mutations-multimedia.com</p>
+                        <p><strong>Log Erreur : </strong> java.net.UnknownHo=
+stException: www.quotidien.mutations-multimedia.com</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D682&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : http://blablabal</h3>
+                                                       <p><strong>Flux : </s=
+trong> http://blablabal</p>
+                                                <p><strong>Erreur : </strong=
+> java.net.UnknownHostException: blablabal</p>
+                        <p><strong>Log Erreur : </strong> java.net.UnknownHo=
+stException: blablabal
+=09at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:=
+178)
+=09at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+=09at java.net.Socket.connect(Socket.java:579)
+=09at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:378)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:473)
+=09at sun.net.www.http.HttpClient.<init>(HttpClient.java:203)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:290)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+=09at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLCo=
+nnection.java:995)
+=09at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnec=
+tion.java:931)
+=09at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.=
+java:849)
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:59)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:200)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:273)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+231)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:266)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D16319&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : La Presse - General</h3>
+                                                       <p><strong>Flux : </s=
+trong> La Presse - General</p>
+                                                <p><strong>Erreur : </strong=
+> java.util.concurrent.ExecutionException: com.sun.syndication.io.ParsingFee=
+dException: Invalid XML: Error on line 49: An invalid XML character (Unicode=
+: 0x7) was found in the element content of the document.</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.ExecutionException: com.sun.syndication.io.ParsingFeedException: Invalid =
+XML: Error on line 49: An invalid XML character (Unicode: 0x7) was found in =
+the element content of the document.
+=09at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:262)
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:221)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:254)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+Caused by: com.sun.syndication.io.ParsingFeedException: Invalid XML: Error o=
+n line 49: An invalid XML character (Unicode: 0x7) was found in the element =
+content of the document.
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:198)
+=09at com.sun.syndication.io.SyndFeedInput.build(SyndFeedInput.java:123)
+=09at rssagregator.beans.traitement.RomeParse.execute(RomeParse.java:70)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:185)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:25)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09... 3 more
+Caused by: org.jdom.input.JDOMParseException: Error on line 49: An invalid X=
+ML character (Unicode: 0x7) was found in the element content of the document=
+.
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:533)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:946)
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:194)
+=09... 9 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 49; columnNumber: 20; =
+An invalid XML character (Unicode: 0x7) was found in the element content of =
+the document.
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXP=
+arseException(ErrorHandlerWrapper.java:198)
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError=
+(ErrorHandlerWrapper.java:177)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:441)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:368)
+=09at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XM=
+LScanner.java:1388)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2856)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XM=
+LDocumentScannerImpl.java:607)
+=09at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(=
+XMLNSDocumentScannerImpl.java:116)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:835)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:764)
+=09at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.j=
+ava:123)
+=09at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Abs=
+tractSAXParser.java:1210)
+=09at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.pa=
+rse(SAXParserImpl.java:568)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518)
+=09... 11 more
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D17923&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : The Jerusalem Post - Une</h3>
+                                                       <p><strong>Flux : </s=
+trong> The Jerusalem Post - Une</p>
+                                                <p><strong>Erreur : </strong=
+> java.util.concurrent.ExecutionException: com.sun.syndication.io.ParsingFee=
+dException: Invalid XML: Error on line 8: The entity name must immediately f=
+ollow the '&' in the entity reference.</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.ExecutionException: com.sun.syndication.io.ParsingFeedException: Invalid =
+XML: Error on line 8: The entity name must immediately follow the '&' in the=
+ entity reference.
+=09at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:262)
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:221)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:254)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+Caused by: com.sun.syndication.io.ParsingFeedException: Invalid XML: Error o=
+n line 8: The entity name must immediately follow the '&' in the entity refe=
+rence.
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:198)
+=09at com.sun.syndication.io.SyndFeedInput.build(SyndFeedInput.java:123)
+=09at rssagregator.beans.traitement.RomeParse.execute(RomeParse.java:70)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:185)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:25)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09... 3 more
+Caused by: org.jdom.input.JDOMParseException: Error on line 8: The entity na=
+me must immediately follow the '&' in the entity reference.
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:533)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:946)
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:194)
+=09... 9 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 32; T=
+he entity name must immediately follow the '&' in the entity reference.
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXP=
+arseException(ErrorHandlerWrapper.java:198)
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError=
+(ErrorHandlerWrapper.java:177)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:441)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:368)
+=09at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XM=
+LScanner.java:1388)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+.scanEntityReference(XMLDocumentFragmentScannerImpl.java:1806)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2994)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XM=
+LDocumentScannerImpl.java:607)
+=09at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(=
+XMLNSDocumentScannerImpl.java:116)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:835)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:764)
+=09at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.j=
+ava:123)
+=09at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Abs=
+tractSAXParser.java:1210)
+=09at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.pa=
+rse(SAXParserImpl.java:568)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518)
+=09... 11 more
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D18147&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Le Nouvelliste - Une</h3>
+                                                       <p><strong>Flux : </s=
+trong> Le Nouvelliste - Une</p>
+                                                <p><strong>Erreur : </strong=
+> javax.xml.ws.http.HTTPException</p>
+                        <p><strong>Log Erreur : </strong> javax.xml.ws.http.=
+HTTPException
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:66)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:200)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D25437&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Daily Graphic - Une</h3>
+                                                       <p><strong>Flux : </s=
+trong> Daily Graphic - Une</p>
+                                                <p><strong>Erreur : </strong=
+> javax.xml.ws.http.HTTPException</p>
+                        <p><strong>Log Erreur : </strong> javax.xml.ws.http.=
+HTTPException
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:66)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:200)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D26113&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Arab news - International</h3>
+                                                       <p><strong>Flux : </s=
+trong> Arab news - International</p>
+                                                <p><strong>Erreur : </strong=
+> java.util.concurrent.ExecutionException: com.sun.syndication.io.ParsingFee=
+dException: Invalid XML: Error on line 71: The element type "meta" must be t=
+erminated by the matching end-tag "</meta>".</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.ExecutionException: com.sun.syndication.io.ParsingFeedException: Invalid =
+XML: Error on line 71: The element type "meta" must be terminated by the mat=
+ching end-tag "</meta>".
+=09at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:262)
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:221)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+Caused by: com.sun.syndication.io.ParsingFeedException: Invalid XML: Error o=
+n line 71: The element type "meta" must be terminated by the matching end-ta=
+g "</meta>".
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:198)
+=09at com.sun.syndication.io.SyndFeedInput.build(SyndFeedInput.java:123)
+=09at rssagregator.beans.traitement.RomeParse.execute(RomeParse.java:70)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:185)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:25)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09... 3 more
+Caused by: org.jdom.input.JDOMParseException: Error on line 71: The element =
+type "meta" must be terminated by the matching end-tag "</meta>".
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:533)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:946)
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:194)
+=09... 9 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 71; columnNumber: 3; T=
+he element type "meta" must be terminated by the matching end-tag "</meta>".
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXP=
+arseException(ErrorHandlerWrapper.java:198)
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError=
+(ErrorHandlerWrapper.java:177)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:441)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:368)
+=09at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XM=
+LScanner.java:1388)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+.scanEndElement(XMLDocumentFragmentScannerImpl.java:1709)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2900)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XM=
+LDocumentScannerImpl.java:607)
+=09at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(=
+XMLNSDocumentScannerImpl.java:116)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:835)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:764)
+=09at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.j=
+ava:123)
+=09at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Abs=
+tractSAXParser.java:1210)
+=09at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.pa=
+rse(SAXParserImpl.java:568)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518)
+=09... 11 more
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D165403&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Livres : Toute l'actualit=C3=A9 sur Le Monde.fr.=
+</h3>
+                                                       <p><strong>Flux : </s=
+trong> Livres : Toute l'actualit=C3=A9 sur Le Monde.fr.</p>
+                                                <p><strong>Erreur : </strong=
+> java.util.concurrent.ExecutionException: com.sun.syndication.io.ParsingFee=
+dException: Invalid XML: Error on line 1: White spaces are required between =
+publicId and systemId.</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.ExecutionException: com.sun.syndication.io.ParsingFeedException: Invalid =
+XML: Error on line 1: White spaces are required between publicId and systemI=
+d.
+=09at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:262)
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:221)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+Caused by: com.sun.syndication.io.ParsingFeedException: Invalid XML: Error o=
+n line 1: White spaces are required between publicId and systemId.
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:198)
+=09at com.sun.syndication.io.SyndFeedInput.build(SyndFeedInput.java:123)
+=09at rssagregator.beans.traitement.RomeParse.execute(RomeParse.java:70)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:185)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:25)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09... 3 more
+Caused by: org.jdom.input.JDOMParseException: Error on line 1: White spaces =
+are required between publicId and systemId.
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:533)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:946)
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:194)
+=09... 9 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 50; W=
+hite spaces are required between publicId and systemId.
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXP=
+arseException(ErrorHandlerWrapper.java:198)
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError=
+(ErrorHandlerWrapper.java:177)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:441)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:368)
+=09at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XM=
+LScanner.java:1388)
+=09at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanExternalID(XMLS=
+canner.java:1000)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.scanDoc=
+typeDecl(XMLDocumentScannerImpl.java:647)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologD=
+river.next(XMLDocumentScannerImpl.java:931)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XM=
+LDocumentScannerImpl.java:607)
+=09at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(=
+XMLNSDocumentScannerImpl.java:116)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:835)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:764)
+=09at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.j=
+ava:123)
+=09at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Abs=
+tractSAXParser.java:1210)
+=09at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.pa=
+rse(SAXParserImpl.java:568)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518)
+=09... 11 more
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D355948&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Soci=C3=A9t=C3=A9 : Toute l'actualit=C3=A9 sur L=
+e Monde.fr.</h3>
+                                                       <p><strong>Flux : </s=
+trong> Soci=C3=A9t=C3=A9 : Toute l'actualit=C3=A9 sur Le Monde.fr.</p>
+                                                <p><strong>Erreur : </strong=
+> java.util.concurrent.ExecutionException: com.sun.syndication.io.ParsingFee=
+dException: Invalid XML: Error on line 1: White spaces are required between =
+publicId and systemId.</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.ExecutionException: com.sun.syndication.io.ParsingFeedException: Invalid =
+XML: Error on line 1: White spaces are required between publicId and systemI=
+d.
+=09at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:262)
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:221)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+Caused by: com.sun.syndication.io.ParsingFeedException: Invalid XML: Error o=
+n line 1: White spaces are required between publicId and systemId.
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:198)
+=09at com.sun.syndication.io.SyndFeedInput.build(SyndFeedInput.java:123)
+=09at rssagregator.beans.traitement.RomeParse.execute(RomeParse.java:70)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:185)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:25)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09... 3 more
+Caused by: org.jdom.input.JDOMParseException: Error on line 1: White spaces =
+are required between publicId and systemId.
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:533)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:946)
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:194)
+=09... 9 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 50; W=
+hite spaces are required between publicId and systemId.
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXP=
+arseException(ErrorHandlerWrapper.java:198)
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError=
+(ErrorHandlerWrapper.java:177)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:441)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:368)
+=09at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XM=
+LScanner.java:1388)
+=09at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanExternalID(XMLS=
+canner.java:1000)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.scanDoc=
+typeDecl(XMLDocumentScannerImpl.java:647)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologD=
+river.next(XMLDocumentScannerImpl.java:931)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XM=
+LDocumentScannerImpl.java:607)
+=09at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(=
+XMLNSDocumentScannerImpl.java:116)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:835)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:764)
+=09at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.j=
+ava:123)
+=09at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Abs=
+tractSAXParser.java:1210)
+=09at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.pa=
+rse(SAXParserImpl.java:568)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518)
+=09... 11 more
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D355996&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : NYT > Contributing Writers</h3>
+                                                       <p><strong>Flux : </s=
+trong> NYT > Contributing Writers</p>
+                                                <p><strong>Erreur : </strong=
+> java.net.SocketTimeoutException: connect timed out</p>
+                        <p><strong>Log Erreur : </strong> java.net.SocketTim=
+eoutException: connect timed out
+=09at java.net.PlainSocketImpl.socketConnect(Native Method)
+=09at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.jav=
+a:339)
+=09at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketI=
+mpl.java:200)
+=09at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:=
+182)
+=09at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+=09at java.net.Socket.connect(Socket.java:579)
+=09at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:378)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:473)
+=09at sun.net.www.http.HttpClient.<init>(HttpClient.java:203)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:290)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+=09at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLCo=
+nnection.java:995)
+=09at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnec=
+tion.java:931)
+=09at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.=
+java:849)
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:59)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:200)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D386346&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : NYT > Paul Krugman</h3>
+                                                       <p><strong>Flux : </s=
+trong> NYT > Paul Krugman</p>
+                                                <p><strong>Erreur : </strong=
+> java.net.SocketTimeoutException: connect timed out</p>
+                        <p><strong>Log Erreur : </strong> java.net.SocketTim=
+eoutException: connect timed out
+=09at java.net.PlainSocketImpl.socketConnect(Native Method)
+=09at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.jav=
+a:339)
+=09at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketI=
+mpl.java:200)
+=09at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:=
+182)
+=09at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+=09at java.net.Socket.connect(Socket.java:579)
+=09at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:378)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:473)
+=09at sun.net.www.http.HttpClient.<init>(HttpClient.java:203)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:290)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+=09at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLCo=
+nnection.java:995)
+=09at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnec=
+tion.java:931)
+=09at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.=
+java:849)
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:59)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:200)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D386347&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : NYT > Automobiles</h3>
+                                                       <p><strong>Flux : </s=
+trong> NYT > Automobiles</p>
+                                                <p><strong>Erreur : </strong=
+> java.net.SocketTimeoutException: connect timed out</p>
+                        <p><strong>Log Erreur : </strong> java.net.SocketTim=
+eoutException: connect timed out
+=09at java.net.PlainSocketImpl.socketConnect(Native Method)
+=09at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.jav=
+a:339)
+=09at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketI=
+mpl.java:200)
+=09at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:=
+182)
+=09at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+=09at java.net.Socket.connect(Socket.java:579)
+=09at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:378)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:473)
+=09at sun.net.www.http.HttpClient.<init>(HttpClient.java:203)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:290)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+=09at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLCo=
+nnection.java:995)
+=09at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnec=
+tion.java:931)
+=09at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.=
+java:849)
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:59)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:200)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D386353&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Opinionator=C2=BB Timothy Egan</h3>
+                                                       <p><strong>Flux : </s=
+trong> Opinionator=C2=BB Timothy Egan</p>
+                                                <p><strong>Erreur : </strong=
+> java.net.SocketTimeoutException: connect timed out</p>
+                        <p><strong>Log Erreur : </strong> java.net.SocketTim=
+eoutException: connect timed out
+=09at java.net.PlainSocketImpl.socketConnect(Native Method)
+=09at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.jav=
+a:339)
+=09at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketI=
+mpl.java:200)
+=09at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:=
+182)
+=09at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+=09at java.net.Socket.connect(Socket.java:579)
+=09at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:378)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:473)
+=09at sun.net.www.http.HttpClient.<init>(HttpClient.java:203)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:290)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+=09at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLCo=
+nnection.java:995)
+=09at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnec=
+tion.java:931)
+=09at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.=
+java:849)
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:59)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:200)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D386354&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Aide : Toute l'actualit=C3=A9 sur Le Monde.fr.</=
+h3>
+                                                       <p><strong>Flux : </s=
+trong> Aide : Toute l'actualit=C3=A9 sur Le Monde.fr.</p>
+                                                <p><strong>Erreur : </strong=
+> java.util.concurrent.TimeoutException</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.TimeoutException
+=09at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:221)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D386383&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Japon : Toute l'actualit=C3=A9 sur Le Monde.fr.<=
+/h3>
+                                                       <p><strong>Flux : </s=
+trong> Japon : Toute l'actualit=C3=A9 sur Le Monde.fr.</p>
+                                                <p><strong>Erreur : </strong=
+> java.util.concurrent.TimeoutException</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.TimeoutException
+=09at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:221)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D386384&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Immobilier : Toute l'actualit=C3=A9 sur Le Monde=
+.fr.</h3>
+                                                       <p><strong>Flux : </s=
+trong> Immobilier : Toute l'actualit=C3=A9 sur Le Monde.fr.</p>
+                                                <p><strong>Erreur : </strong=
+> java.util.concurrent.TimeoutException</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.TimeoutException
+=09at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:221)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D386385&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Le Parisien - International</h3>
+                                                       <p><strong>Flux : </s=
+trong> Le Parisien - International</p>
+                                                <p><strong>Erreur : </strong=
+> java.net.SocketTimeoutException: connect timed out</p>
+                        <p><strong>Log Erreur : </strong> java.net.SocketTim=
+eoutException: connect timed out
+=09at java.net.PlainSocketImpl.socketConnect(Native Method)
+=09at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.jav=
+a:339)
+=09at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketI=
+mpl.java:200)
+=09at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:=
+182)
+=09at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+=09at java.net.Socket.connect(Socket.java:579)
+=09at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:378)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:473)
+=09at sun.net.www.http.HttpClient.<init>(HttpClient.java:203)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:290)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+=09at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLCo=
+nnection.java:995)
+=09at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnec=
+tion.java:931)
+=09at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.=
+java:849)
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:59)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:200)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D386394&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : New Vision - Une</h3>
+                                                       <p><strong>Flux : </s=
+trong> New Vision - Une</p>
+                                                <p><strong>Erreur : </strong=
+> java.net.SocketTimeoutException: connect timed out</p>
+                        <p><strong>Log Erreur : </strong> java.net.SocketTim=
+eoutException: connect timed out
+=09at java.net.PlainSocketImpl.socketConnect(Native Method)
+=09at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.jav=
+a:339)
+=09at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketI=
+mpl.java:200)
+=09at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:=
+182)
+=09at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+=09at java.net.Socket.connect(Socket.java:579)
+=09at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:378)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:473)
+=09at sun.net.www.http.HttpClient.<init>(HttpClient.java:203)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:290)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+=09at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLCo=
+nnection.java:995)
+=09at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnec=
+tion.java:931)
+=09at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.=
+java:849)
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:59)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:200)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D386452&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : The Start (Jamaica) - Une</h3>
+                                                       <p><strong>Flux : </s=
+trong> The Start (Jamaica) - Une</p>
+                                                <p><strong>Erreur : </strong=
+> java.net.SocketTimeoutException: connect timed out</p>
+                        <p><strong>Log Erreur : </strong> java.net.SocketTim=
+eoutException: connect timed out
+=09at java.net.PlainSocketImpl.socketConnect(Native Method)
+=09at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.jav=
+a:339)
+=09at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketI=
+mpl.java:200)
+=09at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:=
+182)
+=09at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+=09at java.net.Socket.connect(Socket.java:579)
+=09at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:378)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:473)
+=09at sun.net.www.http.HttpClient.<init>(HttpClient.java:203)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:290)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+=09at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLCo=
+nnection.java:995)
+=09at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnec=
+tion.java:931)
+=09at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.=
+java:849)
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:59)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:200)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D388909&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Le Soleil - Une</h3>
+                                                       <p><strong>Flux : </s=
+trong> Le Soleil - Une</p>
+                                                <p><strong>Erreur : </strong=
+> java.net.SocketTimeoutException: connect timed out</p>
+                        <p><strong>Log Erreur : </strong> java.net.SocketTim=
+eoutException: connect timed out
+=09at java.net.PlainSocketImpl.socketConnect(Native Method)
+=09at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.jav=
+a:339)
+=09at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketI=
+mpl.java:200)
+=09at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:=
+182)
+=09at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+=09at java.net.Socket.connect(Socket.java:579)
+=09at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:378)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:473)
+=09at sun.net.www.http.HttpClient.<init>(HttpClient.java:203)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:290)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+=09at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLCo=
+nnection.java:995)
+=09at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnec=
+tion.java:931)
+=09at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.=
+java:849)
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:59)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:200)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D388917&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Nassau Guardian - General</h3>
+                                                       <p><strong>Flux : </s=
+trong> Nassau Guardian - General</p>
+                                                <p><strong>Erreur : </strong=
+> java.util.concurrent.ExecutionException: com.sun.syndication.io.ParsingFee=
+dException: Invalid XML: Error on line 1: Content is not allowed in prolog.<=
+/p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.ExecutionException: com.sun.syndication.io.ParsingFeedException: Invalid =
+XML: Error on line 1: Content is not allowed in prolog.
+=09at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:262)
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:221)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+Caused by: com.sun.syndication.io.ParsingFeedException: Invalid XML: Error o=
+n line 1: Content is not allowed in prolog.
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:198)
+=09at com.sun.syndication.io.SyndFeedInput.build(SyndFeedInput.java:123)
+=09at rssagregator.beans.traitement.RomeParse.execute(RomeParse.java:70)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:185)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:25)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09... 3 more
+Caused by: org.jdom.input.JDOMParseException: Error on line 1: Content is no=
+t allowed in prolog.
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:533)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:946)
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:194)
+=09... 9 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Co=
+ntent is not allowed in prolog.
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXP=
+arseException(ErrorHandlerWrapper.java:198)
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError=
+(ErrorHandlerWrapper.java:177)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:441)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:368)
+=09at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XM=
+LScanner.java:1388)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologD=
+river.next(XMLDocumentScannerImpl.java:998)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XM=
+LDocumentScannerImpl.java:607)
+=09at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(=
+XMLNSDocumentScannerImpl.java:116)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+.scanDocument(XMLDocumentFragmentScannerImpl.java:489)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:835)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:764)
+=09at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.j=
+ava:123)
+=09at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Abs=
+tractSAXParser.java:1210)
+=09at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.pa=
+rse(SAXParserImpl.java:568)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518)
+=09... 11 more
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D423121&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Daily Monitor - General</h3>
+                                                       <p><strong>Flux : </s=
+trong> Daily Monitor - General</p>
+                                                <p><strong>Erreur : </strong=
+> javax.xml.ws.http.HTTPException</p>
+                        <p><strong>Log Erreur : </strong> javax.xml.ws.http.=
+HTTPException
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:66)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:200)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D423720&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : The Daily Nation - General</h3>
+                                                       <p><strong>Flux : </s=
+trong> The Daily Nation - General</p>
+                                                <p><strong>Erreur : </strong=
+> javax.xml.ws.http.HTTPException</p>
+                        <p><strong>Log Erreur : </strong> javax.xml.ws.http.=
+HTTPException
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:66)
+=09at rssagregator.beans.traitement.MediatorCollecteAction.executeActions(Me=
+diatorCollecteAction.java:200)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:259)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+221)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:256)
+=09at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:724)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D423753&type=3DCollecteIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : LE FIGARO - Le Figaro =C2=96 Economie : Sport Bu=
+siness</h3>
+                                                       <p><strong>Flux : </s=
+trong> LE FIGARO - Le Figaro =C2=96 Economie : Sport Business</p>
+                                                <p><strong>Erreur : </strong=
+> ParsingFeedException : Impossible de parser le flux XML. La page demand=C3=
+=A9e est joignable mais le contenu trouv=C3=A9 n'a pas pu =C3=AAtre interpr=
+=C3=A9t=C3=A9. V=C3=A9rifiez =C3=A0 la main le contenu trouvable a l'url du =
+flux. Il se peut que le journal ait supprim=C3=A9 le flux pour l'adresse men=
+tionn=C3=A9 (obtention d'une page erreur 404 ?).</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.ExecutionException: com.sun.syndication.io.ParsingFeedException: Invalid =
+XML: Error on line 1: Fin pr=C3=A9matur=C3=A9e du fichier.
+=09at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:202)
+=09at rssagregator.beans.traitement.VisitorHTTP.visit(VisitorHTTP.java:87)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:265)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+192)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:221)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:744)
+Caused by: com.sun.syndication.io.ParsingFeedException: Invalid XML: Error o=
+n line 1: Fin pr=C3=A9matur=C3=A9e du fichier.
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:198)
+=09at com.sun.syndication.io.SyndFeedInput.build(SyndFeedInput.java:123)
+=09at rssagregator.beans.traitement.RomeParse.execute(RomeParse.java:56)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:163)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:24)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+=09... 3 more
+Caused by: org.jdom.input.JDOMParseException: Error on line 1: Fin pr=C3=A9m=
+atur=C3=A9e du fichier.
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:533)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:946)
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:194)
+=09... 8 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Fi=
+n pr=C3=A9matur=C3=A9e du fichier.
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXP=
+arseException(ErrorHandlerWrapper.java:198)
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError=
+(ErrorHandlerWrapper.java:177)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:441)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:368)
+=09at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XM=
+LScanner.java:1436)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologD=
+river.next(XMLDocumentScannerImpl.java:1019)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XM=
+LDocumentScannerImpl.java:606)
+=09at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(=
+XMLNSDocumentScannerImpl.java:117)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:848)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:777)
+=09at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.j=
+ava:141)
+=09at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Abs=
+tractSAXParser.java:1213)
+=09at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.pa=
+rse(SAXParserImpl.java:649)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518)
+=09... 10 more
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D605194&type=3DRecupIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Aravot (Morning) - General</h3>
+                                                       <p><strong>Flux : </s=
+trong> Aravot (Morning) - General</p>
+                                                <p><strong>Erreur : </strong=
+> Pas de message pour ce type d'exception, regardez les logs</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.TimeoutException
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:201)
+=09at rssagregator.beans.traitement.VisitorHTTP.visit(VisitorHTTP.java:66)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:265)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+192)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:221)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:744)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D609412&type=3DRecupIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Borneo Bulletin - General</h3>
+                                                       <p><strong>Flux : </s=
+trong> Borneo Bulletin - General</p>
+                                                <p><strong>Erreur : </strong=
+> Pas de message pour ce type d'exception, regardez les logs</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.TimeoutException
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:201)
+=09at rssagregator.beans.traitement.VisitorHTTP.visit(VisitorHTTP.java:66)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:265)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+192)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:221)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:744)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D579689&type=3DRecupIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : The Start - Une</h3>
+                                                       <p><strong>Flux : </s=
+trong> The Start - Une</p>
+                                                <p><strong>Erreur : </strong=
+> ParsingFeedException : Impossible de parser le flux XML. La page demand=C3=
+=A9e est joignable mais le contenu trouv=C3=A9 n'a pas pu =C3=AAtre interpr=
+=C3=A9t=C3=A9. V=C3=A9rifiez =C3=A0 la main le contenu trouvable a l'url du =
+flux. Il se peut que le journal ait supprim=C3=A9 le flux pour l'adresse men=
+tionn=C3=A9 (obtention d'une page erreur 404 ?).</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.ExecutionException: com.sun.syndication.io.ParsingFeedException: Invalid =
+XML: Error on line 196: La r=C3=A9f=C3=A9rence =C3=A0 l'entit=C3=A9 "decodeU=
+RIComponent" doit se terminer par le d=C3=A9limiteur ';'.
+=09at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:202)
+=09at rssagregator.beans.traitement.VisitorHTTP.visit(VisitorHTTP.java:87)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:265)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+192)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:221)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:744)
+Caused by: com.sun.syndication.io.ParsingFeedException: Invalid XML: Error o=
+n line 196: La r=C3=A9f=C3=A9rence =C3=A0 l'entit=C3=A9 "decodeURIComponent"=
+ doit se terminer par le d=C3=A9limiteur ';'.
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:198)
+=09at com.sun.syndication.io.SyndFeedInput.build(SyndFeedInput.java:123)
+=09at rssagregator.beans.traitement.RomeParse.execute(RomeParse.java:56)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:163)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:24)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+=09... 3 more
+Caused by: org.jdom.input.JDOMParseException: Error on line 196: La r=C3=A9f=
+=C3=A9rence =C3=A0 l'entit=C3=A9 "decodeURIComponent" doit se terminer par l=
+e d=C3=A9limiteur ';'.
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:533)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:946)
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:194)
+=09... 8 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 196; columnNumber: 93;=
+ La r=C3=A9f=C3=A9rence =C3=A0 l'entit=C3=A9 "decodeURIComponent" doit se te=
+rminer par le d=C3=A9limiteur ';'.
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXP=
+arseException(ErrorHandlerWrapper.java:198)
+=09at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError=
+(ErrorHandlerWrapper.java:177)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:441)
+=09at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(X=
+MLErrorReporter.java:368)
+=09at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XM=
+LScanner.java:1436)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+.scanEntityReference(XMLDocumentFragmentScannerImpl.java:1857)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3059)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XM=
+LDocumentScannerImpl.java:606)
+=09at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(=
+XMLNSDocumentScannerImpl.java:117)
+=09at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl=
+.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:848)
+=09at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XM=
+L11Configuration.java:777)
+=09at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.j=
+ava:141)
+=09at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Abs=
+tractSAXParser.java:1213)
+=09at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.pa=
+rse(SAXParserImpl.java:649)
+=09at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518)
+=09... 10 more
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D609856&type=3DRecupIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Le pays - General</h3>
+                                                       <p><strong>Flux : </s=
+trong> Le pays - General</p>
+                                                <p><strong>Erreur : </strong=
+> Pas de message pour ce type d'exception, regardez les logs</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.TimeoutException
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:201)
+=09at rssagregator.beans.traitement.VisitorHTTP.visit(VisitorHTTP.java:66)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:265)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+192)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:221)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:744)
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D609525&type=3DRecupIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Swazi Observer - Une</h3>
+                                                       <p><strong>Flux : </s=
+trong> Swazi Observer - Une</p>
+                                                <p><strong>Erreur : </strong=
+> Pas de message pour ce type d'exception, regardez les logs</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.ExecutionException: java.lang.IllegalArgumentException: Invalid document
+=09at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:202)
+=09at rssagregator.beans.traitement.VisitorHTTP.visit(VisitorHTTP.java:87)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:265)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+192)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:221)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:744)
+Caused by: java.lang.IllegalArgumentException: Invalid document
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:275)
+=09at com.sun.syndication.io.WireFeedInput.build(WireFeedInput.java:195)
+=09at com.sun.syndication.io.SyndFeedInput.build(SyndFeedInput.java:123)
+=09at rssagregator.beans.traitement.RomeParse.execute(RomeParse.java:56)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:163)
+=09at rssagregator.beans.traitement.RomeParse.call(RomeParse.java:24)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+=09... 3 more
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D476233&type=3DRecupIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Testt - International</h3>
+                                                       <p><strong>Flux : </s=
+trong> Testt - International</p>
+                                                <p><strong>Erreur : </strong=
+> UnknownHostException : Il est impossible de joindre l'host du flux. V=C3=
+=A9rifiez l'adresse dans la fiche du flux. Le serveur n'a pas pu =C3=AAtre j=
+oin...</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.ExecutionException: java.net.UnknownHostException: gporessssfds
+=09at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:202)
+=09at rssagregator.beans.traitement.VisitorHTTP.visit(VisitorHTTP.java:66)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:265)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+192)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:221)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.UnknownHostException: gporessssfds
+=09at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:=
+178)
+=09at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+=09at java.net.Socket.connect(Socket.java:579)
+=09at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+=09at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+=09at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLCo=
+nnection.java:996)
+=09at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnec=
+tion.java:932)
+=09at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.=
+java:850)
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:62)
+=09at rssagregator.beans.traitement.AbstrRequesteur.call(AbstrRequesteur.jav=
+a:138)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+=09... 3 more
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D566954&type=3DRecupIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                                                <li>
+                    <h3 title=3D"Les incidents de collectes sont blablabla">=
+Incident de collecte FLux : Testt - BREAKING NEWS</h3>
+                                                       <p><strong>Flux : </s=
+trong> Testt - BREAKING NEWS</p>
+                                                <p><strong>Erreur : </strong=
+> UnknownHostException : Il est impossible de joindre l'host du flux. V=C3=
+=A9rifiez l'adresse dans la fiche du flux. Le serveur n'a pas pu =C3=AAtre j=
+oin...</p>
+                        <p><strong>Log Erreur : </strong> java.util.concurre=
+nt.ExecutionException: java.net.UnknownHostException: zouzouzou
+=09at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+=09at java.util.concurrent.FutureTask.get(FutureTask.java:202)
+=09at rssagregator.beans.traitement.VisitorHTTP.visit(VisitorHTTP.java:66)
+=09at rssagregator.services.tache.TacheRecupCallable.callCorps(TacheRecupCal=
+lable.java:265)
+=09at rssagregator.services.tache.TacheImpl.executeProcessus(TacheImpl.java:=
+192)
+=09at rssagregator.services.tache.TacheImpl.call(TacheImpl.java:221)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.a=
+ccess$201(ScheduledThreadPoolExecutor.java:178)
+=09at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.r=
+un(ScheduledThreadPoolExecutor.java:292)
+=09at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j=
+ava:1145)
+=09at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.=
+java:615)
+=09at java.lang.Thread.run(Thread.java:744)
+Caused by: java.net.UnknownHostException: zouzouzou
+=09at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:=
+178)
+=09at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+=09at java.net.Socket.connect(Socket.java:579)
+=09at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+=09at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+=09at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+=09at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+=09at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLCo=
+nnection.java:996)
+=09at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnec=
+tion.java:932)
+=09at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.=
+java:850)
+=09at rssagregator.beans.traitement.Requester.requete(Requester.java:62)
+=09at rssagregator.beans.traitement.AbstrRequesteur.call(AbstrRequesteur.jav=
+a:138)
+=09at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+=09... 3 more
+</p>
+                        <p><a href=3D"http://localhost:8080/RSSAgregate/inci=
+dents/read?id=3D567003&type=3DRecupIncident">D=C3=A9tail</a></p>
+
+                </li>
+                                           =20
+       =20
+        </ul>
+    </body>
+</html>

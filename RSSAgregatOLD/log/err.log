@@ -1,0 +1,334 @@
+2014-03-01 18:44:27 [WARN ] org.eclipse.persistence.default- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:27 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:28 [WARN ] org.eclipse.persistence.default- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:28 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata- 1 mars 2014 18:44:29 org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata ServerSession(794725007)
+ATTENTION: Reverting the lazy setting on the OneToOne or ManyToOne attribute [journalLie] for the entity class [class rssagregator.beans.Flux] since weaving was not enabled or did not occur.
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata- 1 mars 2014 18:44:29 org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata ServerSession(794725007)
+ATTENTION: Reverting the lazy setting on the OneToOne or ManyToOne attribute [fluxLie] for the entity class [class rssagregator.beans.incident.CollecteIncident] since weaving was not enabled or did not occur.
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata- 1 mars 2014 18:44:29 org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata ServerSession(794725007)
+ATTENTION: Reverting the lazy setting on the OneToOne or ManyToOne attribute [journal] for the entity class [class rssagregator.beans.incident.IncidentDecouverteRSS] since weaving was not enabled or did not occur.
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:29 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:44:30 [ERROR] rssagregator.servlet.StartServlet- Erreur lors de l'instanciation des service depuis servicedef.xml 
+java.io.FileNotFoundException: /sites/geomedia/resource/RSSAgregator/servicedef.xml (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at java.io.FileInputStream.<init>(FileInputStream.java:79)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:70)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:161)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:652)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:186)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:772)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:905)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:884)
+	at rssagregator.utils.ServiceXMLTool.instancierServiceEtTache(ServiceXMLTool.java:46)
+	at rssagregator.servlet.StartServlet.contextInitialized(StartServlet.java:108)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4961)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5455)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1258)
+	at org.apache.catalina.manager.HTMLManagerServlet.start(HTMLManagerServlet.java:716)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:221)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:213)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:409)
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:200)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+2014-03-01 18:44:30 [DEBUG] rssagregator.services.ServiceCollecteur- Lancement de TacheProducteur{service=rssagregator.services.ServiceCollecteur@582d6583}
+2014-03-01 18:44:30 [DEBUG] rssagregator.services.ServiceCollecteur- Lancement de rssagregator.services.TacheConsomateur@31f4a427
+2014-03-01 18:44:30 [DEBUG] rssagregator.dao.CacheHashFlux- Chargement
+2014-03-01 18:44:30 [DEBUG] rssagregator.services.ServiceMailNotifier- Lancement de TacheProducteur{service=rssagregator.services.ServiceMailNotifier@50db3158}
+2014-03-01 18:44:30 [DEBUG] rssagregator.services.ServiceMailNotifier- Lancement de rssagregator.services.TacheConsomateur@51f45f2a
+2014-03-01 18:44:30 [DEBUG] rssagregator.servlet.StartServlet- Fermeture de l'Application
+2014-03-01 18:44:30 [DEBUG] rssagregator.services.TacheConsomateur- Interruption de rssagregator.services.TacheConsomateur@31f4a427
+2014-03-01 18:44:30 [DEBUG] rssagregator.services.TacheConsomateur- Interruption de rssagregator.services.TacheConsomateur@51f45f2a
+2014-03-01 18:44:30 [DEBUG] rssagregator.services.TacheProducteur- Interruption de  TacheProducteur{service=rssagregator.services.ServiceMailNotifier@50db3158}
+2014-03-01 18:44:30 [ERROR] org.eclipse.persistence.default- 1 mars 2014 18:44:30 org.eclipse.persistence.default 
+GRAVE: java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.persistence.internal.helper.ConcurrencyManager.releaseDeferredLock(ConcurrencyManager.java:445)
+	at org.eclipse.persistence.internal.identitymaps.CacheKey.releaseDeferredLock(CacheKey.java:424)
+	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildObject(ObjectBuilder.java:923)
+	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildWorkingCopyCloneNormally(ObjectBuilder.java:777)
+	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildObjectInUnitOfWork(ObjectBuilder.java:730)
+	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildObject(ObjectBuilder.java:629)
+	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildObject(ObjectBuilder.java:587)
+	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildObject(ObjectBuilder.java:571)
+	at org.eclipse.persistence.queries.ObjectLevelReadQuery.buildObject(ObjectLevelReadQuery.java:782)
+	at org.eclipse.persistence.queries.ReadAllQuery.registerResultInUnitOfWork(ReadAllQuery.java:848)
+	at org.eclipse.persistence.queries.ReadAllQuery.executeObjectLevelReadQuery(ReadAllQuery.java:490)
+	at org.eclipse.persistence.queries.ObjectLevelReadQuery.executeDatabaseQuery(ObjectLevelReadQuery.java:1155)
+	at org.eclipse.persistence.queries.DatabaseQuery.execute(DatabaseQuery.java:899)
+	at org.eclipse.persistence.queries.ObjectLevelReadQuery.execute(ObjectLevelReadQuery.java:1114)
+	at org.eclipse.persistence.queries.ReadAllQuery.execute(ReadAllQuery.java:402)
+	at org.eclipse.persistence.queries.ObjectLevelReadQuery.executeInUnitOfWork(ObjectLevelReadQuery.java:1202)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.internalExecuteQuery(UnitOfWorkImpl.java:2894)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1797)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1779)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1744)
+	at org.eclipse.persistence.internal.jpa.QueryImpl.executeReadQuery(QueryImpl.java:258)
+	at org.eclipse.persistence.internal.jpa.QueryImpl.getResultList(QueryImpl.java:468)
+	at rssagregator.services.TacheProducteurServiceCollecte.run(TacheProducteurServiceCollecte.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+
+2014-03-01 18:44:30 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- 1 mars 2014 18:44:30 org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2 UnitOfWork(692197493)
+ATTENTION: [ExceptionHeader]2001] (Eclipse Persistence Services - 2.5.0.v20130507-3faac2b): org.eclipse.persistence.exceptions.ConcurrencyException
+[DescriptionHeader]Wait was interrupted. 
+Message: [sleep interrupted]
+2014-03-01 18:45:06 [WARN ] org.eclipse.persistence.default- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:06 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:07 [WARN ] org.eclipse.persistence.default- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:07 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata- 1 mars 2014 18:45:08 org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata ServerSession(691210542)
+ATTENTION: Reverting the lazy setting on the OneToOne or ManyToOne attribute [journalLie] for the entity class [class rssagregator.beans.Flux] since weaving was not enabled or did not occur.
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata- 1 mars 2014 18:45:08 org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata ServerSession(691210542)
+ATTENTION: Reverting the lazy setting on the OneToOne or ManyToOne attribute [fluxLie] for the entity class [class rssagregator.beans.incident.CollecteIncident] since weaving was not enabled or did not occur.
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata- 1 mars 2014 18:45:08 org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata ServerSession(691210542)
+ATTENTION: Reverting the lazy setting on the OneToOne or ManyToOne attribute [journal] for the entity class [class rssagregator.beans.incident.IncidentDecouverteRSS] since weaving was not enabled or did not occur.
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:08 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:45:09 [ERROR] rssagregator.servlet.StartServlet- Erreur lors de l'instanciation des service depuis servicedef.xml 
+java.io.FileNotFoundException: /sites/geomedia/resource/RSSAgregator/servicedef.xml (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at java.io.FileInputStream.<init>(FileInputStream.java:79)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:70)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:161)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:652)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:186)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:772)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:905)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:884)
+	at rssagregator.utils.ServiceXMLTool.instancierServiceEtTache(ServiceXMLTool.java:46)
+	at rssagregator.servlet.StartServlet.contextInitialized(StartServlet.java:108)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4961)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5455)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1258)
+	at org.apache.catalina.manager.HTMLManagerServlet.start(HTMLManagerServlet.java:716)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:221)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:213)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:409)
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:200)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+2014-03-01 18:45:09 [DEBUG] rssagregator.services.ServiceCollecteur- Lancement de TacheProducteur{service=rssagregator.services.ServiceCollecteur@35cf630a}
+2014-03-01 18:45:09 [DEBUG] rssagregator.services.ServiceCollecteur- Lancement de rssagregator.services.TacheConsomateur@28246ceb
+2014-03-01 18:45:09 [DEBUG] rssagregator.dao.CacheHashFlux- Chargement
+2014-03-01 18:45:09 [DEBUG] rssagregator.services.ServiceMailNotifier- Lancement de TacheProducteur{service=rssagregator.services.ServiceMailNotifier@1a3580ab}
+2014-03-01 18:45:09 [DEBUG] rssagregator.services.ServiceMailNotifier- Lancement de rssagregator.services.TacheConsomateur@57d7b155
+2014-03-01 18:45:09 [DEBUG] rssagregator.servlet.StartServlet- Fermeture de l'Application
+2014-03-01 18:45:09 [DEBUG] rssagregator.services.TacheConsomateur- Interruption de rssagregator.services.TacheConsomateur@28246ceb
+2014-03-01 18:45:09 [DEBUG] rssagregator.services.TacheProducteur- Interruption de  TacheProducteur{service=rssagregator.services.ServiceMailNotifier@1a3580ab}
+2014-03-01 18:45:09 [DEBUG] rssagregator.services.TacheConsomateur- Interruption de rssagregator.services.TacheConsomateur@57d7b155
+2014-03-01 18:45:09 [ERROR] org.eclipse.persistence.default- 1 mars 2014 18:45:09 org.eclipse.persistence.default 
+GRAVE: java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.persistence.internal.helper.ConcurrencyManager.releaseDeferredLock(ConcurrencyManager.java:445)
+	at org.eclipse.persistence.internal.identitymaps.CacheKey.releaseDeferredLock(CacheKey.java:424)
+	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildObject(ObjectBuilder.java:923)
+	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildWorkingCopyCloneNormally(ObjectBuilder.java:777)
+	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildObjectInUnitOfWork(ObjectBuilder.java:730)
+	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildObject(ObjectBuilder.java:629)
+	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildObject(ObjectBuilder.java:587)
+	at org.eclipse.persistence.internal.descriptors.ObjectBuilder.buildObject(ObjectBuilder.java:571)
+	at org.eclipse.persistence.queries.ObjectLevelReadQuery.buildObject(ObjectLevelReadQuery.java:782)
+	at org.eclipse.persistence.queries.ReadAllQuery.registerResultInUnitOfWork(ReadAllQuery.java:848)
+	at org.eclipse.persistence.queries.ReadAllQuery.executeObjectLevelReadQuery(ReadAllQuery.java:490)
+	at org.eclipse.persistence.queries.ObjectLevelReadQuery.executeDatabaseQuery(ObjectLevelReadQuery.java:1155)
+	at org.eclipse.persistence.queries.DatabaseQuery.execute(DatabaseQuery.java:899)
+	at org.eclipse.persistence.queries.ObjectLevelReadQuery.execute(ObjectLevelReadQuery.java:1114)
+	at org.eclipse.persistence.queries.ReadAllQuery.execute(ReadAllQuery.java:402)
+	at org.eclipse.persistence.queries.ObjectLevelReadQuery.executeInUnitOfWork(ObjectLevelReadQuery.java:1202)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.internalExecuteQuery(UnitOfWorkImpl.java:2894)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1797)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1779)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1744)
+	at org.eclipse.persistence.internal.jpa.QueryImpl.executeReadQuery(QueryImpl.java:258)
+	at org.eclipse.persistence.internal.jpa.QueryImpl.getResultList(QueryImpl.java:468)
+	at rssagregator.services.TacheProducteurServiceCollecte.run(TacheProducteurServiceCollecte.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+
+2014-03-01 18:45:09 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- 1 mars 2014 18:45:09 org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2 UnitOfWork(424561818)
+ATTENTION: Exception [EclipseLink-2001] (Eclipse Persistence Services - 2.5.0.v20130507-3faac2b): org.eclipse.persistence.exceptions.ConcurrencyException
+Exception Description: Wait was interrupted. 
+Message: [sleep interrupted]
+2014-03-01 18:54:34 [WARN ] org.eclipse.persistence.default- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:34 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:35 [WARN ] org.eclipse.persistence.default- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:35 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:35 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata- 1 mars 2014 18:54:35 org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata ServerSession(776278108)
+ATTENTION: Reverting the lazy setting on the OneToOne or ManyToOne attribute [fluxLie] for the entity class [class rssagregator.beans.incident.CollecteIncident] since weaving was not enabled or did not occur.
+2014-03-01 18:54:35 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata- 1 mars 2014 18:54:35 org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata ServerSession(776278108)
+ATTENTION: Reverting the lazy setting on the OneToOne or ManyToOne attribute [journalLie] for the entity class [class rssagregator.beans.Flux] since weaving was not enabled or did not occur.
+2014-03-01 18:54:35 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata- 1 mars 2014 18:54:35 org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2.metadata ServerSession(776278108)
+ATTENTION: Reverting the lazy setting on the OneToOne or ManyToOne attribute [journal] for the entity class [class rssagregator.beans.incident.IncidentDecouverteRSS] since weaving was not enabled or did not occur.
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- CommonsLoggingSessionLog.setLevel : Logger Level set to : WARN
+2014-03-01 18:54:36 [DEBUG] rssagregator.services.tache.TacheFactory- Chargement de la TacheFactory
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.ServiceCollecteur- Lancement de TacheProducteur{service=rssagregator.services.ServiceCollecteur@1df3b8bc}
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.ServiceCollecteur- Lancement de rssagregator.services.TacheConsomateur@48bbaccd
+2014-03-01 18:54:38 [DEBUG] rssagregator.dao.CacheHashFlux- Chargement
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.ServiceMailNotifier- Lancement de TacheProducteur{service=rssagregator.services.ServiceMailNotifier@471ed915}
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.ServiceMailNotifier- Lancement de rssagregator.services.TacheConsomateur@71c142c2
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.ServiceSynchro- Lancement de TacheProducteur{service=rssagregator.services.ServiceSynchro@2b984909}
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.ServiceSynchro- Lancement de rssagregator.services.TacheConsomateur@73af31b8
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.ServiceServer- Lancement de TacheProducteur{service=rssagregator.services.ServiceServer@10636a7e}
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.ServiceServer- Lancement de rssagregator.services.TacheConsomateur@633835b4
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.SemaphoreCentre- Lancement de rssagregator.services.SemaphoreCentre@2304f8b8
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.SemaphoreCentre- -------------------------------------
+Purge des semaphores innutiles
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.SemaphoreCentre- Fin de purge 
+ -------------------------------------------
+2014-03-01 18:54:38 [DEBUG] rssagregator.servlet.StartServlet- Fermeture de l'Application
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.TacheProducteur- Interruption de  TacheProducteur{service=rssagregator.services.ServiceServer@10636a7e}
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.TacheProducteur- Interruption de  TacheProducteur{service=rssagregator.services.ServiceMailNotifier@471ed915}
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.TacheConsomateur- Interruption de rssagregator.services.TacheConsomateur@73af31b8
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.TacheProducteur- Interruption de  TacheProducteur{service=rssagregator.services.ServiceSynchro@2b984909}
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.TacheConsomateur- Interruption de rssagregator.services.TacheConsomateur@71c142c2
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.TacheConsomateur- Interruption de rssagregator.services.TacheConsomateur@633835b4
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.SemaphoreCentre- Interruption de rssagregator.services.SemaphoreCentre@2304f8b8
+2014-03-01 18:54:38 [DEBUG] rssagregator.services.TacheConsomateur- Interruption de rssagregator.services.TacheConsomateur@48bbaccd
+2014-03-01 18:54:38 [DEBUG] rssagregator.servlet.StartServlet- [OK] Déenregistremnet des driver JDBC
+2014-03-01 18:54:38 [DEBUG] rssagregator.servlet.StartServlet- [OK] Fin de la procédure de fermeture
+2014-03-01 18:54:38 [WARN ] org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2- 1 mars 2014 18:54:38 org.eclipse.persistence.session.file:/sites/geomedia/resource/tomcat/apache-tomcat-7.0.50/webapps/RSSAgregate/WEB-INF/classes/_RSSAgregatePU2 UnitOfWork(1506553666)
+ATTENTION: Exception [EclipseLink-2001] (Eclipse Persistence Services - 2.5.0.v20130507-3faac2b): org.eclipse.persistence.exceptions.ConcurrencyException
+Exception Description: Wait was interrupted. 
+Message: [null]
